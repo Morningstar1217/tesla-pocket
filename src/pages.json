@@ -1,0 +1,18 @@
+{
+  "pages": [{
+    "path": "pages/index/index",
+    "style": {
+      "navigationBarTitleText": "车迹 · Tesla Pocket",
+      // #ifdef APP-HARMONY || H5
+      "navigationStyle": "custom",
+      // #endif
+      "navigationBarBackgroundColor": "#171819",
+      "enablePullDownRefresh": true
+    }
+  }],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#171819",
+    "backgroundColor": "#171819"
+  }
+}

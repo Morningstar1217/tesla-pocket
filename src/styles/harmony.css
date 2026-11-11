@@ -1,0 +1,9 @@
+.harmony-status-bar{position:fixed;top:0;left:0;right:0;height:var(--status-bar-height, 0px);background:var(--background);z-index:100;pointer-events:none}
+.app-shell.harmony-shell{position:relative;max-width:840px;min-height:100vh;background:var(--background);padding-top:calc(12px + var(--status-bar-height, 0px));padding-bottom:0;color:var(--text);font-family:"HarmonyOS Sans",sans-serif}
+.harmony-shell .page-body{padding:0 24px calc(112px + env(safe-area-inset-bottom))}
+.harmony-nav-area{position:fixed;left:0;right:0;bottom:0;height:calc(100px + env(safe-area-inset-bottom));pointer-events:none}
+.harmony-nav-area.nav-hidden .harmony-navigation{pointer-events:none}
+.harmony-navigation{position:absolute;display:block;pointer-events:auto;z-index:20;left:50%;bottom:calc(4px + env(safe-area-inset-bottom));transform:translateX(-50%);width:100%;max-width:600px;height:80px}
+@media(min-width:600px){.harmony-shell .page-body{padding:0 32px calc(112px + env(safe-area-inset-bottom))}}
+@media(max-width:350px){.harmony-shell .page-body{padding:0 18px calc(112px + env(safe-area-inset-bottom))}}
+@media(prefers-reduced-motion:reduce){.harmony-shell *{transition:none!important;animation:none!important}}

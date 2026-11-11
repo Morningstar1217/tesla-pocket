@@ -1,0 +1,38 @@
+{
+  "name": "车迹 Tesla Pocket",
+  "appid": "",
+  "description": "个人只读车辆助手：车况、充电、行程",
+  "versionName": "1.3.4",
+  "versionCode": "134",
+  "transformPx": false,
+  "vueVersion": "3",
+  "mp-weixin": {
+    "appid": "YOUR_WECHAT_APP_ID",
+    "usingComponents": true,
+    "setting": {
+      "urlCheck": true,
+      "es6": true,
+      "minified": true
+    }
+  },
+  "h5": {
+    "router": {
+      "mode": "hash"
+    }
+  },
+  "uniStatistics": {
+    "enable": false
+  },
+  "locale": "zh-Hans",
+  "app-harmony": {
+    "distribute": {
+      "bundleName": "com.example.teslapocket",
+      "splashScreens": {
+        "startWindowBackground": "#171819"
+      }
+    },
+    "uniStatistics": {
+      "enable": false
+    }
+  }
+}
